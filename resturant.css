@@ -3,12 +3,12 @@
 .container-fixed{
       display:grid;
       /*height:90vh;*/
-     grid-template-columns: auto;
+      grid-template-columns: auto;
       grid-template-rows:100px 200px 150px 150px 150px 300px 100px;
       
     /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
-    grid-template-areas:
-    "hd"
+      grid-template-areas:
+      "hd"
       "sd"
       "sd"
       "main"
@@ -62,12 +62,7 @@
    
    
  }
- 
- 
- 
- 
- 
- 
+
 @media(min-width:900px){
  .container-fixed{
     /* Step 1: Set display to grid */
@@ -84,171 +79,131 @@
       "sd sd sd sd ja ja pa pa"
       "ft ft ft ft ft ft ft ft";
       border: 2px solid grey;
-   
-   margin:100px;
-   margin-top:20px;
-   border-radius:10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
-   background:black;
+      margin:100px;
+      margin-top:20px;
+      border-radius:10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background:black;
   }}
   
   .box{
-    border: 1px solid grey;
-    background: blue;
-    margin:5px;
+      border: 1px solid grey;
+      background: blue;
+      margin:5px;
     }
   .header{
-    grid-area:hd;
-    border-radius: 12px;
-    background-image:url(maakuli.jpeg);
+      grid-area:hd;
+      border-radius: 12px;
+      background-image:url(maakuli.jpeg);
   }
   .footer{
-    grid-area:ft;
-    /*width:1275px;
-    height:80px;*/
-   
-    border-radius:15px;
-    background-color:#8882A1;
+      grid-area:ft;
+      border-radius:15px;
+      background-color:#8882A1;
   }
   .sidebar{
-    grid-area:sd;
-   
+      grid-area:sd;
   }
   .content{
-    grid-area:main;
-    border-color:gray;
-    border-radius:30px;
-  background-color:white;
-
- 
-    
+      grid-area:main;
+      border-color:gray;
+      border-radius:30px;
+      background-color:white;
   }
   
   .containera{
-    
-    grid-area:pa;
-    background:white;
- 
+      grid-area:pa;
+      background:white;
   }
   .containera h4{
-    
-    margin:0;
-  }
-    
-    
+      margin:0;
+  } 
   .containera b{
-    
-    margin:0;
+     margin:0;
   }
-  .card{
-    
-    grid-area:ja;
-    border-color:gray;
-    border-color:red;
-    border-radius:30px;
-
-  
+  .card{ 
+     grid-area:ja;
+     border-color:gray;
+     border-color:red;
+     border-radius:30px;
   }
   
   .topnav{
-    
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-end;
-   
-    align-items:center;
-    flex-wrap:wrap;
-    
+     display:flex;
+     flex-direction:row;
+     justify-content:flex-end;
+     align-items:center;
+     flex-wrap:wrap;
   }
  .topnav a {
-   
-   margin:0 10px;v
-   color:white;
-   
-   
+     margin:0 10px;v
+     color:white;
  }
- 
  a{
-   
-   color:white;
+     color:white;
  }
- 
  input{
-   
-   
-   border-radius:70px;
+     border-radius:70px;
  }
- 
+
 h3 {
   
   color:white;
 }
 
 .header box a{
-  
-  margin:50px;
-  style="float:left";
-  text-shadow: 3px 2px red;
-  style="font-size:8vw;"
-  font-size:6.2em;
+     margin:50px;
+     style="float:left";
+     text-shadow: 3px 2px red;
+     style="font-size:8vw;"
+     font-size:6.2em;
 }
 
 #kayumba {
   
   margin:50px;
-
 }
 
-    
-}
 #one{
-    background-image:url(msosi.jpeg);
-    background-size:contain;
-    border-radius:20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-image:url(msosi.jpeg);
+      background-size:contain;
+      border-radius:20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  
   
   #jama{
-    background-image:url(maakuli.jpeg);
-    background-size:contain;
-    border-radius:20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-image:url(maakuli.jpeg);
+      background-size:contain;
+      border-radius:20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
   }
-   
-  .card {
+.card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-color:red;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      border-color:red;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 img.rounded-corners {
-
-  border-radius: 30px;
-  height:200px;
+      border-radius: 30px;
+      height:200px;
 }
  .mabapara{
-        
-        background-image:url(mambo.jpeg);
-        height:1000px;
-        
-        
+      background-image:url(mambo.jpeg);
+      height:1000px;
       }
-    .mabapara p{
+.mabapara p{
       margin:0;
-      
-    }
+     }
     .mabapara.hii-ya-njano{
-             background-image:url(resturant.jpeg);
-             background-repeat: no-repeat;
+      background-image:url(resturant.jpeg);
+      background-repeat: no-repeat;
   height:auto;
  
     }

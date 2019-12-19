@@ -91,7 +91,7 @@
   .header{
       grid-area:hd;
       border-radius: 12px;
-      background-image:url(maakuli.jpeg);
+      background-image:url(food-03.jpeg);
   }
   .footer{
       grid-area:ft;
@@ -162,7 +162,7 @@ h3 {
 }
 
 #one{
-      background-image:url(msosi.jpeg);
+      background-image:url(food-01.jpeg);
       background-size:contain;
       border-radius:20px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -185,7 +185,7 @@ img.rounded-corners {
       height:200px;
 }
  .section-1{
-      background-image:url(mambo.jpeg);
+      background-image:url(food-02.jpeg);
       height:1000px;
       }
 .section-1 p{

@@ -13,7 +13,7 @@ Css
 
 
 Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+Version 1.0.0
 
 Authors
 Emmamnuel

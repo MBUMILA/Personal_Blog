@@ -1,5 +1,27 @@
-# resturant-personal-blog
+Project Title
+Resturant personal blog
 
-Requirements
--have browser intalled in your machine
--Have Text editor of your choice installed in machine(preferably vscode editor)
+Prerequisites
+
+Install browser of your choice(<a href="https://itsfoss.com/install-chrome-ubuntu/">Download and install chromebrowser in ubuntu here</a>)
+Install text editor of your choice<a href="https://code.visualstudio.com/download">Dowload and install vscode in ubuntu here</a>
+
+
+Built With
+Html5 
+Css
+
+
+Versioning
+We use SemVer for versioning. For the versions available, see the tags on this repository.
+
+Authors
+Emmamnuel
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+Acknowledgments
+Udacity.com.
+W3school.com
+https://developer.mozilla.org/en-US/docs/Web/CSS

@@ -1,27 +1,27 @@
-Project Title
+#Project Title
 Resturant personal blog
 
-Prerequisites
+#Prerequisites
 
 Install browser of your choice(<a href="https://itsfoss.com/install-chrome-ubuntu/">Download and install chromebrowser in ubuntu here</a>)
 Install text editor of your choice<a href="https://code.visualstudio.com/download">Dowload and install vscode in ubuntu here</a>
 
 
-Built With
+#Built With
 Html5 
 Css
 
 
-Versioning
+#Versioning
 Version 1.0.0
 
-Authors
-Emmamnuel
+#Authors
+Njama
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+#License
+//This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Acknowledgments
+#Acknowledgments
 Udacity.com.
 W3school.com
 https://developer.mozilla.org/en-US/docs/Web/CSS
